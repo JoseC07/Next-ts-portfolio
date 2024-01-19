@@ -28,7 +28,7 @@ export default function contactButton(){
         <DialogHeader>
           <DialogTitle>Personal Email</DialogTitle>
           <DialogDescription>
-            copy José's email handle
+            copy José&apos;s email handle
           </DialogDescription>
         </DialogHeader>
         <div className="flex items-center space-x-2">
