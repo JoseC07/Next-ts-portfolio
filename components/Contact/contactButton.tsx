@@ -1,4 +1,4 @@
-'use-client';
+import React,{ useState } from "react"
 import { CopyIcon } from "@radix-ui/react-icons"
  
 import { Button } from "@/components/ui/button"
@@ -36,7 +36,7 @@ export default function contactButton(){
             <Label htmlFor="link" className="sr-only">
               Link
             </Label>
-            {/* <Form></Form> */}
+           
             
             
             

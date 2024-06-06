@@ -1,13 +1,15 @@
-import Intro from '@/components/Intro/Intro';
+import Intro from "@/components/Intro/Intro";
+import ExploreBtn from "@/components/Button/ExploreBtn";
 
-import Image from 'next/image'
+import Image from "next/image";
+import Header from "@/components/Header/Header";
+import CardBtn from "@/components/Button/CardBtn";
+import About from "@/components/About/About";
 
 export default function Home() {
   return (
-    <div className='bg-cover bg-center w-full h-screen flex justify-center items-center bg-black'>
-      <Intro></Intro>
-    </div>
     
-);
-};
-  
+  <About></About>
+      
+  );
+}
